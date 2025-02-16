@@ -1,6 +1,6 @@
 # Student Demo Website
 
-This is a simple HTML, CSS, and JavaScript project for students to learn how to upload and host a website using GitHub Pages.
+This is a simple HTML, CSS, and JavaScript project for students to learn how to upload and host a website using GitHub Pages or run it locally on XAMPP.
 
 ## Project Structure
 
@@ -19,18 +19,22 @@ This is a simple HTML, CSS, and JavaScript project for students to learn how to 
 
 ## How to Use
 
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/RavandurChandan/Practice_HTMLWebsite.git
-   ```
+### Running Locally on XAMPP
 
-2. **Navigate to the Project Folder**
-   ```sh
-   cd Practice_HTMLWebsite
-   ```
+1. **Download and Install XAMPP**
+   - Download XAMPP from [Apache Friends](https://www.apachefriends.org/).
+   - Install and open the XAMPP Control Panel.
+   - Start **Apache** server.
 
-3. **Open in a Browser**
-   - Open `index.html` in a web browser to view the webpage.
+2. **Move Project Files to htdocs**
+   - Copy the `Practice_HTMLWebsite` folder to `C:\xampp\htdocs\` (Windows) or `/Applications/XAMPP/htdocs/` (Mac).
+
+3. **Access the Website Locally**
+   - Open a web browser and go to:
+     ```
+     http://localhost/Practice_HTMLWebsite/index.html
+     ```
+   - The website should now be visible.
 
 ## Hosting on GitHub Pages
 
